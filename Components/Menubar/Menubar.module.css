@@ -1,0 +1,65 @@
+
+.ConPad{
+    padding: 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 10px 30px -10px, rgba(0, 0, 0, 0.3) 0px 10px 20px -20px;
+    margin-bottom: 18px;
+}
+
+.LinkDivMain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+}
+
+.LinkDivMain{
+    display: flex;
+    justify-content: space-between;
+}
+
+.LinkDivMain a{
+    font-family: 'Inter', sans-serif;
+    color:#000000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.InputTxtDiv{
+    height: 42px;
+    width: 402px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e4eaef;
+    border-radius: 10px;
+}
+
+.InputTxtDiv svg{
+   font-size: 20px;
+   margin-right: 20px;
+ 
+}
+
+.InputTxt{
+    height: 40px;
+    width: 350px;
+    border: none;
+    outline: none;
+    background-color: #e4eaef;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+.InputCart{
+    color: #d44934;
+    font-size: 40px;
+}
+
+.Inputlock{
+    color:#e9ddda;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 5px;
+}
