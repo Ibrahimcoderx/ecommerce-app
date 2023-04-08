@@ -1,0 +1,47 @@
+.Foter{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+
+.Foterfas{
+    color: #ec6449;
+    font-size: 30px;
+}
+
+.Foterfas2{
+    color: #2600ff;
+    font-size: 30px;
+}
+
+.FoterItem h2{
+    color:#515755;
+    font-size: 18px;
+    font-weight: 900;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.FoterItem p{
+    color:#515755;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.FoterItem a{
+    color: #515755;
+    font-size: 16px;
+}
+
+.FoterItem ul li{
+    margin-top: 15px;
+}
+
+@media (max-width: 991px) {
+
+    .Foter{
+        display: block;
+        text-align: center;
+    }
+}

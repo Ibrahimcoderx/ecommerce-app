@@ -6,6 +6,9 @@
     margin-top: 100px;
 }
 
+.HomePage{
+    font-family: 'Inter', sans-serif;
+}
 
 /* =========================================================================================
         Carosel
@@ -33,6 +36,7 @@
 .SliderSliderdiv img{
     width: 100%;
     border-radius: 20px;
+    transition: .2s;
 }
 
 .SliderSliderdiv{
@@ -41,12 +45,12 @@
 
 .Button1{
     position: absolute;
-    top:0;
+    top:0px;
     left:-50px;
     border: none;
     outline: none;
     background:#7a7a7a;
-    margin-top:6%;
+    margin-top:6% !important;
     z-index: 2;
     display: flex;
     align-items: center;
@@ -74,6 +78,19 @@
     border-radius: 100px;
 }
 
+.SliderSliderdiv h6{
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    color:#333030;
+}
+
+.SliderSliderdiv img:hover{
+    transform: scale(1.05);
+}
+
+
+
 @media (max-width: 767px) {
     
     .Button1, .Button2{
@@ -81,3 +98,196 @@
     }
 
 }
+
+/* =========================================================================================
+            Allproduct home
+=========================================================================================*/
+.HomeProduct{
+    padding: 18px 10px;
+    background-color: #EDF4F2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.HomeProduct h2{
+   font-size: 24px;
+   color:#D44934;
+}
+
+.HomeProduct a{
+    font-size: 20px;
+    color:#D44934;
+}
+
+.HomeCard h4,Svg{
+    color:rgb(234, 234, 234);
+    font-size: 16px;
+    line-height: 24px;
+} 
+
+.HomeCard h6{
+    color:rgb(234, 234, 234);
+    font-size: 12px;
+    line-height: 15px;
+}
+.HomeCard h3{
+    color:rgb(5, 5, 5);
+    font-size: 20px;
+    line-height: 28px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@300;400;700&display=swap');
+
+/* ==============Common================= */
+
+.section-gap{
+    margin-top: 100px;
+}
+
+.HomePage{
+    font-family: 'Inter', sans-serif;
+}
+
+/* =========================================================================================
+        Carosel
+==============================================================================================*/
+
+
+.CaroselDiv img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+/* =========================================================================================
+        Slider
+==============================================================================================*/
+
+.SliderH2div h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    padding: 24px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.SliderSliderdiv img{
+    width: 100%;
+    border-radius: 20px;
+    transition: .2s;
+}
+
+.SliderSliderdiv{
+    position: relative;
+}
+
+.Button1{
+    position: absolute;
+    top:0px;
+    left:-50px;
+    border: none;
+    outline: none;
+    background:#7a7a7a;
+    margin-top:6% !important;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+
+}
+
+.Button2{
+    position: absolute;
+    top:0;
+    right:-50px;
+    margin-top:6%;
+    border: none;
+    outline: none;
+    background:#7a7a7a;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+
+}
+
+.Button1, .Button2{
+    font-size: 24px;
+    color:#FFF;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+.SliderSliderdiv h6{
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    color:#333030;
+}
+
+.SliderSliderdiv img:hover{
+    transform: scale(1.05);
+}
+
+
+
+@media (max-width: 767px) {
+    
+    .Button1, .Button2{
+       display: none;
+    }
+
+}
+
+/* =========================================================================================
+            Allproduct home
+=========================================================================================*/
+.HomeProduct{
+    padding: 18px 10px;
+    background-color: #EDF4F2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.HomeProduct h2{
+   font-size: 24px;
+   color:#D44934;
+}
+
+.HomeProduct a{
+    font-size: 20px;
+    color:#D44934;
+}
+
+.HomeCard {
+    text-align: center;
+} 
+
+.HomeCard img{
+    width: 100%;
+    box-shadow: 0px 7px 10px rgb(226, 226, 226);
+} 
+
+.HomeCard{
+    box-shadow: 0px 7px 10px rgb(226, 226, 226);
+    padding-bottom: 15px;
+}
+
+.HomeCard h4,Svg{
+    color:rgb(163, 159, 159);
+    font-size: 16px;
+    line-height: 24px;
+} 
+
+.HomeCard h6{
+    color:rgb(163, 159, 159);
+    font-size: 12px;
+    line-height: 15px;
+}
+.HomeCard h3{
+    color:rgb(5, 5, 5);
+    font-size: 20px;
+    line-height: 28px;
+}
+

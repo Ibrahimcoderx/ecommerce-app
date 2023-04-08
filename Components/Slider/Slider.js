@@ -40,17 +40,17 @@ const Slider = () => {
                         640: {
                             slidesPerView: 2,
                             slidesPerGroup:2,
-                            spaceBetween: 20,
+                            spaceBetween: 30,
                         },
                         768: {
                             slidesPerView: 4,
                             slidesPerGroup:4,
-                            spaceBetween: 20,
+                            spaceBetween: 30,
                         },
                         1024: {
                             slidesPerView: 6,
                             slidesPerGroup:6,
-                            spaceBetween: 20,
+                            spaceBetween: 30,
                         },
                         }}
 
@@ -59,56 +59,147 @@ const Slider = () => {
                         >
 
                        
-                            <SwiperSlide>
-                                <Link href=""><img src="/images/home/img.png" alt="" /> </Link>
-                            </SwiperSlide>
-                       
-                            <SwiperSlide>
-                                <Link href=""><img src="/images/home/img.png" alt="" /> </Link>
-                            </SwiperSlide>
-                       
-                            <SwiperSlide>
-                                <Link href=""><img src="/images/home/img.png" alt="" /> </Link>
-                            </SwiperSlide>
-                       
-                            <SwiperSlide>
-                                <Link href=""><img src="/images/home/img.png" alt="" /> </Link>
-                            </SwiperSlide>
-                       
-                            <SwiperSlide>
-                                <Link href=""><img src="/images/home/img.png" alt="" /> </Link>
-                            </SwiperSlide>
-                       
-                            <SwiperSlide>
-                                <Link href=""><img src="/images/home/img.png" alt="" /> </Link>
-                            </SwiperSlide>
-                       
-                            <SwiperSlide>
-                                <Link href=""><img src="/images/home/img.png" alt="" /> </Link>
-                            </SwiperSlide>
-                       
-                            <SwiperSlide>
-                                <Link href=""><img src="/images/home/img.png" alt="" /> </Link>
-                            </SwiperSlide>
-                       
-                            <SwiperSlide>
-                                <Link href=""><img src="/images/home/img.png" alt="" /> </Link>
-                            </SwiperSlide>
-                       
-                            <SwiperSlide>
-                                <Link href=""><img src="/images/home/img.png" alt="" /> </Link>
-                            </SwiperSlide>
-                       
-                            <SwiperSlide>
-                                <Link href=""><img src="/images/home/img.png" alt="" /> </Link>
-                            </SwiperSlide>
-                       
-                            <SwiperSlide>
-                                <Link href=""><img src="/images/home/img.png" alt="" /> </Link>
+                            <SwiperSlide >
+
+                                    <Link href="">
+
+                                        <img src="/images/home/img.png" alt="" />
+                                        <h6>কমলপানি</h6>
+
+                                    </Link>
+
                             </SwiperSlide>
                        
                        
+                            <SwiperSlide >
+
+                                    <Link href="">
+
+                                        <img src="/images/home/img.png" alt="" />
+                                        <h6>কমলপানি</h6>
+
+                                    </Link>
+
+                            </SwiperSlide>
                        
+                       
+                            <SwiperSlide >
+
+                                    <Link href="">
+
+                                        <img src="/images/home/img.png" alt="" />
+                                        <h6>কমলপানি</h6>
+
+                                    </Link>
+
+                            </SwiperSlide>
+                       
+                       
+                            <SwiperSlide >
+
+                                    <Link href="">
+
+                                        <img src="/images/home/img.png" alt="" />
+                                        <h6>কমলপানি</h6>
+
+                                    </Link>
+
+                            </SwiperSlide>
+                       
+                       
+                            <SwiperSlide >
+
+                                    <Link href="">
+
+                                        <img src="/images/home/img.png" alt="" />
+                                        <h6>কমলপানি</h6>
+
+                                    </Link>
+
+                            </SwiperSlide>
+                       
+                       
+                            <SwiperSlide >
+
+                                    <Link href="">
+
+                                        <img src="/images/home/img.png" alt="" />
+                                        <h6>কমলপানি</h6>
+
+                                    </Link>
+
+                            </SwiperSlide>
+                       
+                       
+                            <SwiperSlide >
+
+                                    <Link href="">
+
+                                        <img src="/images/home/img.png" alt="" />
+                                        <h6>কমলপানি</h6>
+
+                                    </Link>
+
+                            </SwiperSlide>
+                       
+                       
+                            <SwiperSlide >
+
+                                    <Link href="">
+
+                                        <img src="/images/home/img.png" alt="" />
+                                        <h6>কমলপানি</h6>
+
+                                    </Link>
+
+                            </SwiperSlide>
+                       
+                       
+                            <SwiperSlide >
+
+                                    <Link href="">
+
+                                        <img src="/images/home/img.png" alt="" />
+                                        <h6>কমলপানি</h6>
+
+                                    </Link>
+
+                            </SwiperSlide>
+                       
+                       
+                            <SwiperSlide >
+
+                                    <Link href="">
+
+                                        <img src="/images/home/img.png" alt="" />
+                                        <h6>কমলপানি</h6>
+
+                                    </Link>
+
+                            </SwiperSlide>
+                       
+                       
+                            <SwiperSlide >
+
+                                    <Link href="">
+
+                                        <img src="/images/home/img.png" alt="" />
+                                        <h6>কমলপানি</h6>
+
+                                    </Link>
+
+                            </SwiperSlide>
+                       
+                       
+                            <SwiperSlide >
+
+                                    <Link href="">
+                                        <img src="/images/home/img.png" alt="" />
+                                        <h6>কমলপানি</h6>
+
+                                    </Link>
+
+                            </SwiperSlide>
                         
                     </Swiper>
 
