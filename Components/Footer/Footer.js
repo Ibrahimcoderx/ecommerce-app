@@ -1,9 +1,13 @@
 import React from 'react'
 import { Container,Row,Col } from 'react-bootstrap';
 import Link from 'next/link';
+
+// input group 
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
+
+
 import style from '../Footer/Footer.module.css'
 import { AiFillInstagram } from "react-icons/ai";
 import { BsFacebook} from "react-icons/bs";

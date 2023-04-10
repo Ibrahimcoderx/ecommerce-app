@@ -291,3 +291,83 @@
     line-height: 28px;
 }
 
+
+/* =====================================================================================
+        Cart
+======================================================================================*/
+.CartItemDev{
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 30px 17px 17px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin: 40px 0px 100px 0px;
+}
+
+.CartItem1Div{
+    display: flex;
+}
+
+.CartItem1Div img{
+    height: 72px;
+    margin-right: 20px;
+}
+
+.CartItem1Div2{
+    display: flex;
+    align-items: center;
+}
+
+.CartItem2Link a{
+    color: #D44934;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.CartItem2Link .CartItem2Link2{
+    padding: 0 10px 0 10px;
+}
+
+.CartItem2LinkDlet a svg{
+    color: #D44934;
+    font-size: 24px;
+    margin-left: 25px;
+}
+
+.CartItemDev2{
+    padding: 17px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin: 40px 0px 100px 0px;
+}
+
+.CartItemDev2ItemPrice li{
+    display: flex;
+    justify-content: space-between;
+}
+
+.CartItemDev2ItemPrice{
+    margin-top: 20px;
+}
+
+.CartItemDev2ItemPrice li{
+    margin: 12px;
+}
+.CartItemDev2ItemPrice li p{
+   font-size: 16px;
+}
+
+.CartItemDev2ItemPrice {
+    font-weight: 500;
+    color: #7a7a7a;
+}
+
+.lastLi p {
+    font-weight: 500;
+    color: #D44934;
+}
+
+.Hr{
+    border-bottom: 1px dashed #D44934;
+    width: 100%;
+}

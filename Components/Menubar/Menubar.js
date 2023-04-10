@@ -4,6 +4,7 @@ import Link from 'next/link'
 import styles from '../Menubar/Menubar.module.css'
 import { IoSearchOutline,IoCartSharp} from "react-icons/io5";
 import { CiLock } from "react-icons/ci";
+import { MdKeyboardArrowRight } from "react-icons/md";
 
 
 const Menubar = () => {
@@ -27,10 +28,56 @@ const Menubar = () => {
                             <Link href=""> <img src="/images/home/logo.png" alt="" /> </Link>
 
                             <Link href=""> Home </Link>
-                            
-                            <Link href=""> Categories</Link>
+
+                            <div className={styles.LinkDivDropdodnMain}>
+
+                                <Link href="">Categories</Link>
+
+                                        <div className={styles.LinkDivDropdodn}>
+
+                                            <ul>
+                                                <li>
+                                                    <Link href="">কমল পানি</Link> 
+                                                    <MdKeyboardArrowRight></MdKeyboardArrowRight>
+                                                </li>
+
+                                                <li>
+                                                    <Link href="">কমল পানি</Link> 
+                                                    <MdKeyboardArrowRight></MdKeyboardArrowRight>
+                                                </li>
+
+                                                <li>
+                                                    <Link href="">কমল পানি</Link> 
+                                                    <MdKeyboardArrowRight></MdKeyboardArrowRight>
+                                                </li>
+
+                                                <li>
+                                                    <Link href="">কমল পানি</Link> 
+                                                    <MdKeyboardArrowRight></MdKeyboardArrowRight>
+                                                </li>
+
+                                                <li>
+                                                    <Link href="">কমল পানি</Link> 
+                                                    <MdKeyboardArrowRight></MdKeyboardArrowRight>
+                                                </li>
+
+                                                <li>
+                                                    <Link href="">কমল পানি</Link> 
+                                                    <MdKeyboardArrowRight></MdKeyboardArrowRight>
+                                                </li>
+                                                
+                                                <li>
+                                                    <Link href="">কমল পানি</Link> 
+                                                    <MdKeyboardArrowRight></MdKeyboardArrowRight>
+                                                </li>
+                                            
+                                            </ul>
+
+                                        </div>
+                            </div>
 
                             <Link href=""> Favorite </Link>
+
 
                             <div className={styles.InputTxtDiv}>
 
