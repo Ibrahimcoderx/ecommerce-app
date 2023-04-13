@@ -2,8 +2,13 @@
     display: flex;
     justify-content: space-between;
     padding-bottom: 50px;
+
 }
 
+.FoterSec{
+    background-color: #edf4f2;
+    padding-top: 50px;
+}
 
 .Foterfas{
     color: #ec6449;

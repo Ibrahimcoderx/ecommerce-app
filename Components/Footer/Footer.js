@@ -17,6 +17,8 @@ const Footer = () => {
 
     <div>
 
+     <section className={style.FoterSec}>
+
         <Container>
 
             <div className={style.Foter}>
@@ -106,6 +108,8 @@ const Footer = () => {
             </div>
 
         </Container>
+
+     </section>
 
     </div>
   )

@@ -42,7 +42,17 @@ const Menubar = () => {
                                                 </li>
 
                                                 <li>
-                                                    <Link href="">কমল পানি</Link> 
+                                                    <Link href="">নাস্তা</Link> 
+                                                    <MdKeyboardArrowRight></MdKeyboardArrowRight>
+                                                </li>
+
+                                                <li>
+                                                    <Link href="">মুদি</Link> 
+                                                    <MdKeyboardArrowRight></MdKeyboardArrowRight>
+                                                </li>
+
+                                                <li>
+                                                    <Link href="">শাড়ি</Link> 
                                                     <MdKeyboardArrowRight></MdKeyboardArrowRight>
                                                 </li>
 
@@ -55,21 +65,7 @@ const Menubar = () => {
                                                     <Link href="">কমল পানি</Link> 
                                                     <MdKeyboardArrowRight></MdKeyboardArrowRight>
                                                 </li>
-
-                                                <li>
-                                                    <Link href="">কমল পানি</Link> 
-                                                    <MdKeyboardArrowRight></MdKeyboardArrowRight>
-                                                </li>
-
-                                                <li>
-                                                    <Link href="">কমল পানি</Link> 
-                                                    <MdKeyboardArrowRight></MdKeyboardArrowRight>
-                                                </li>
-                                                
-                                                <li>
-                                                    <Link href="">কমল পানি</Link> 
-                                                    <MdKeyboardArrowRight></MdKeyboardArrowRight>
-                                                </li>
+                                                                                            
                                             
                                             </ul>
 
