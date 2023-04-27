@@ -115,3 +115,58 @@
     display: block;
     cursor: default;
 }
+
+
+/* offcanvass */
+
+.MobileMenu{
+    display: none;
+  }
+
+.MenubarDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.middleMenuDiv a{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000000;
+}
+
+.middleMenuDiv a:hover{
+   background: #ac3a28;
+   border-radius: 50px;
+}
+
+.CanVasMobBg {
+   background: #d44934;
+}
+
+.offcanvasheader{
+    background: #d44934;
+}
+
+
+
+
+
+
+/* media quari */
+
+  @media (max-width: 575px) {
+
+    .LinkDivMain{
+      display: none;
+    }
+
+    .MobileMenu{
+        display:block;
+      }
+}

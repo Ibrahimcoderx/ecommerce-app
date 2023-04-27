@@ -37,11 +37,13 @@ const Slider = () => {
                             swiperRef.current = swiper;
                             }}
                         breakpoints={{
-                        640: {
+                        240: {
                             slidesPerView: 2,
                             slidesPerGroup:2,
                             spaceBetween: 30,
                         },
+
+
                         768: {
                             slidesPerView: 4,
                             slidesPerGroup:4,
